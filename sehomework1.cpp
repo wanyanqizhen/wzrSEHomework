@@ -31,11 +31,8 @@ ifs.open(file,ios::in);
     for(i=0;i<32;i++){//寻找关键词，找到后num_keyword++ 
 	if(single_word.find(keyword[i])!=single_word.npos){
 		num_keyword++; 
-	//	cout<<keyword[i]<<endl;
-	
 		break;
 	}
-
     } //结束 
 	if(single_word.find(keyword[25])!=single_word.npos){//寻找switch数量，并且确定相应的case的数量 
 		num_switch++;
